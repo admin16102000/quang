@@ -13,6 +13,7 @@ public class Code {
     private String code ; 
     private String name ; 
     private int credit ;
+    private int number ; 
 
     public Code() {
     }
@@ -29,6 +30,14 @@ public class Code {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    public int getNumber(){
+        return number ;
+    }
+
+    public void setNumber( int number){
+        this.number = number ; 
     }
 
     public String getName() {
