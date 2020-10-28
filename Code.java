@@ -24,9 +24,9 @@ public class Code {
         this.credit = credit;
     }
 
-    public String getCode() {
-        return code;
-    }
+    // public String getCode() {
+    //     return code;
+    // }
 
     public void setCode(String code) {
         this.code = code;
