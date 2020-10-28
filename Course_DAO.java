@@ -39,6 +39,16 @@ public class Course_DAO {
         }
         return false;
     }
+
+    public boolean deletCOurse(Course course) {
+        int firstValue = vector.size();
+        vector.add(course);
+        int secondValue = vector.size();
+        if (firstValue < secondValue) {
+            return true;
+        }
+        return false;
+    }
     
     public boolean checkInputValues(String code, int mark) {
         return (Pattern.matches("^[A-Z0-9]+$", code) && mark == 1)
